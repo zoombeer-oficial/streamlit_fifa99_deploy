@@ -11,7 +11,7 @@ if "data" not in st.session_state:
     df_data = df_data.sort_values(by="Overall", ascending=False)
     st.session_state["data"] = df_data
 
-st.markdown("# FIFA23 OFFICIAL DATASET! ⚽️")
+st.markdown("# OFFICIAL DATASET! 👩‍⚕️️")
 st.sidebar.markdown("Desenvolvido por [Asimov Academy](https://asimov.academy)")
 
 
